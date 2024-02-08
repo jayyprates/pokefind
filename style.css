@@ -1,0 +1,71 @@
+body, html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title{
+    display: flex;
+    flex-direction: row;
+}
+
+#poke{
+    color:#3903fc;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#find {
+    color: #f8ea27;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: -1px 0 #3903fc, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#description{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#search-box{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#entire-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#result-box {
+    display: flex;
+    flex-direction: row;
+}
+
+#imgpokemon {
+    position: relative;
+}
+
+#imgpokemon img {
+    position: absolute;
+    top: 35px;
+    height: 200px;
+    width: 200px;
+
+}
+
+#pokemon-name {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: -1px 0 #3903fc, 0 1px yellow, 1px 0 yellow, 0 -1px yellow;
+}
+
+.hidden {
+    display: none !important;
+}
